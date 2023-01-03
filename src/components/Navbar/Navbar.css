@@ -1,0 +1,98 @@
+ul {
+  list-style: none;
+}
+
+.nav {
+  position: fixed;
+  top: 20%;
+  right: -8.5rem;
+  width: fit-content;
+  height: 400px;
+  width: 225px;
+  border-radius: 2rem 0 0 2rem;
+  padding: 2rem;
+  transition: right 0.35s ease-in-out, background 0.35s ease-in-out;
+}
+
+.nav-links {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 1rem;
+  font-size: 1.5rem;
+}
+
+.links-home,
+.links-about,
+.links-skill,
+.links-project,
+.links-contact {
+  transition: color 0.3s ease-in-out;
+}
+
+.links-home:hover {
+  color: rgb(138, 61, 215);
+}
+
+.links-home.active{
+  color: rgb(138, 61, 215);
+}
+
+.links-about:hover {
+  color: rgb(215, 61, 61);
+}
+
+.links-about.active{
+  color: rgb(215, 61, 61);
+}
+
+.links-skill:hover {
+  color: rgb(215, 184, 61);
+}
+
+.links-project:hover {
+  color: rgb(61, 82, 215);
+}
+
+.links-contact:hover {
+  color: rgb(61, 215, 84);
+}
+
+.links {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+  .nav {
+    height: fit-content;
+    max-width: 500px;
+    top: unset;
+    bottom: 0;
+    right: 50%;
+    transform: translateX(50%);
+    border-radius: 2rem 2rem 0 0;
+  }
+
+  .nav-links {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    font-size: 1.5rem;
+  }
+
+  .nav-links span {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .nav:hover {
+    right: 0;
+    background: rgba(81, 84, 115, 0.1);
+  }
+}

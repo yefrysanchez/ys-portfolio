@@ -1,0 +1,27 @@
+.container__logo-skill{
+    background-color: aliceblue;
+    width: fit-content;
+    overflow: hidden;
+    border-radius: 0.8rem;
+}
+
+.logo-skill{
+    height:100px;
+    width: 100px;
+    overflow: hidden;
+    border-radius: 0.8rem; 
+}
+
+.logo-skill img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    filter: grayscale(1);
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+
+.logo-skill img:hover{
+    filter: grayscale(0);
+    scale: 1.05;
+}
