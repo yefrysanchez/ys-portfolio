@@ -12,6 +12,7 @@ ul {
   border-radius: 2rem 0 0 2rem;
   padding: 2rem;
   transition: right 0.35s ease-in-out, background 0.35s ease-in-out;
+  z-index: 999;
 }
 
 .nav-links {
@@ -29,6 +30,7 @@ ul {
 .links-project,
 .links-contact {
   transition: color 0.3s ease-in-out;
+  color: var(--neutral-1);
 }
 
 .links-home:hover {
@@ -50,12 +52,21 @@ ul {
 .links-skill:hover {
   color: rgb(215, 184, 61);
 }
+.links-skill.active {
+  color: rgb(215, 184, 61);
+}
 
 .links-project:hover {
   color: rgb(61, 82, 215);
 }
+.links-project.active{
+  color: rgb(61, 82, 215);
+}
 
 .links-contact:hover {
+  color: rgb(61, 215, 84);
+}
+.links-contact.active {
   color: rgb(61, 215, 84);
 }
 
