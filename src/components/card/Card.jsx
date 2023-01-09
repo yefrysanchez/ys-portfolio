@@ -1,22 +1,22 @@
 import Viewbtn from "../botton/Viewbtn";
 import "./Card.css";
 
-const Card = () => {
+const Card = ({ title, text, link, img }) => {
   return (
     <div className="project">
       <div className="project-img">
-        <img
-          src="https://s3.amazonaws.com/wordpress-production/wp-content/uploads/sites/19/2016/03/10-Ways-Project-Managers-Stay-Organized.jpg"
-          alt=""
-        />
+        <img src={`../../assets/projects-img/${img}.png`} alt={img} />
       </div>
       <div className="project-text">
-        <h2>Project Title</h2>
+        <h2>{title}</h2>
         <p className="project-text__desc">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus
-          officiis ipsa ut quia dolores?
+          {text}
         </p>
-        <Viewbtn />
+        
+        <div>
+          <Viewbtn text={"Live Demo "} link={link} />
+          <Viewbtn text={"GitHub "} link={link} />
+        </div>
       </div>
     </div>
   );

@@ -4,14 +4,15 @@ ul {
 
 .nav {
   position: fixed;
-  top: 20%;
+  top: 32%;
   right: -8.5rem;
   width: fit-content;
   height: 400px;
   width: 225px;
   border-radius: 2rem 0 0 2rem;
   padding: 2rem;
-  transition: right 0.35s ease-in-out, background 0.35s ease-in-out;
+  transition: right 0.35s ease-in-out, background 0.35s ease-in-out,
+  backdrop-filter 0.35s ease-in-out;
   z-index: 999;
 }
 
@@ -37,7 +38,7 @@ ul {
   color: rgb(138, 61, 215);
 }
 
-.links-home.active{
+.links-home.active {
   color: rgb(138, 61, 215);
 }
 
@@ -45,7 +46,7 @@ ul {
   color: rgb(215, 61, 61);
 }
 
-.links-about.active{
+.links-about.active {
   color: rgb(215, 61, 61);
 }
 
@@ -59,7 +60,7 @@ ul {
 .links-project:hover {
   color: rgb(61, 82, 215);
 }
-.links-project.active{
+.links-project.active {
   color: rgb(61, 82, 215);
 }
 
@@ -105,5 +106,6 @@ ul {
   .nav:hover {
     right: 0;
     background: rgba(81, 84, 115, 0.1);
+    backdrop-filter: blur(1px);
   }
 }

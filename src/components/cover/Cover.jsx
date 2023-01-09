@@ -1,9 +1,9 @@
 import './Cover.css'
 
-const Cover = () => {
+const Cover = ({src, alt}) => {
   return (
     <div className='cover'>
-       <img src="" alt="" />
+       <img src={src} alt={alt} />
     </div>
   )
 }

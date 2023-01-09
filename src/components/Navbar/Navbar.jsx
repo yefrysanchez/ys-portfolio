@@ -21,14 +21,7 @@ const Navbar = () => {
           <i className="fa-solid fa-user "></i>
           <span>About</span>
         </NavLink>
-        <NavLink
-          to="skills"
-          className={`links links-skill ${({ isActive }) =>
-            isActive ? "active" : ""}`}
-        >
-          <i className="fa-solid fa-laptop-code"></i>
-          <span>Skills</span>
-        </NavLink>
+
         <NavLink
           to="projects"
           className={`links links-project ${({ isActive }) =>
@@ -36,6 +29,14 @@ const Navbar = () => {
         >
           <i className="fa-regular fa-folder-open"></i>
           <span>Projects</span>
+        </NavLink>
+        <NavLink
+          to="skills"
+          className={`links links-skill ${({ isActive }) =>
+            isActive ? "active" : ""}`}
+        >
+          <i className="fa-solid fa-laptop-code"></i>
+          <span>Skills</span>
         </NavLink>
         <NavLink
           to="contact"

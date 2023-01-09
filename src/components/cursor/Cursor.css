@@ -1,0 +1,5 @@
+.cursor{
+    background-color: var(--neutral-1);
+    height: 32px;
+    width: 32px;
+}

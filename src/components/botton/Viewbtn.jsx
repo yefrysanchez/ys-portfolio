@@ -1,9 +1,18 @@
-import './Viewbtn.css'
+import { Link } from "react-router-dom";
+import "./Viewbtn.css";
 
-const Viewbtn = () => {
+const Viewbtn = ({ text, link }) => {
   return (
-    <p className='viewbtn'>View Work <i className="fa-solid fa-arrow-right"></i></p>
-  )
-}
+    <a
+      href={`https://${link}`}
+      target="_blank"
+      rel="noopener"
+      className="viewbtn"
+    >
+      {text}
+      <i className="fa-solid fa-arrow-right"></i>
+    </a>
+  );
+};
 
-export default Viewbtn
+export default Viewbtn;

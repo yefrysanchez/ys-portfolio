@@ -1,27 +1,42 @@
-.container__logo-skill{
-    background-color: aliceblue;
-    width: fit-content;
-    overflow: hidden;
-    border-radius: 0.8rem;
+.logo-skill-container {
+  height: fit-content;
+  width: fit-content;
+  background: linear-gradient(
+    180deg,
+    rgba(35, 37, 49, 0.3),
+    rgba(15, 15, 24, 0.2)
+  );
+  border: 0.1rem solid #20222e;
+  padding: 1rem;
+  border-radius: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  gap: 1rem;
 }
 
-.logo-skill{
-    height:100px;
-    width: 100px;
-    overflow: hidden;
-    border-radius: 0.8rem; 
+.logo-skill-container:hover img {
+  scale: 1.05;
 }
 
-.logo-skill img{
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    filter: grayscale(1);
-    cursor: pointer;
-    transition: 0.5s ease-in-out;
+.logo-skill {
+  height: 100px;
+  width: 100px;
+  overflow: hidden;
+  border-radius: 0.8rem;
 }
 
-.logo-skill img:hover{
-    filter: grayscale(0);
-    scale: 1.05;
+.logo-skill img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  user-select: none;
+  transition: scale 0.3s ease-in-out;
+}
+
+.skill-text {
+  max-width: 150px;
+  font-size: 15px;
+  line-height: 1.5;
 }
