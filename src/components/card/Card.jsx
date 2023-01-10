@@ -2,6 +2,8 @@ import Viewbtn from "../botton/Viewbtn";
 import "./Card.css";
 import { motion } from "framer-motion";
 
+
+
 const Card = ({ title, text, link, img }) => {
   return (
     <motion.div

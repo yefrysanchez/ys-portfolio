@@ -32,6 +32,9 @@
     transition: 0.3s ease-in-out;
   }
   .title {
-    font-size: 30px;
+    font-size: 2rem;
+  }
+  .home {
+    padding: 0 0.5rem;
   }
 }

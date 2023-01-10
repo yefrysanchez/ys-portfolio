@@ -4,9 +4,11 @@ import { motion } from "framer-motion";
 import { info } from "../components/logo-skill/info";
 import { Slider } from "../components/sliders/Slider";
 
+
 const SkillsPage = () => {
   return (
     <motion.div
+    
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       exit={{ opacity: 0, transition: { duration: 0.2 } }}
@@ -23,7 +25,7 @@ const SkillsPage = () => {
           Some of my <span>skills</span> and <span>tools</span> are
         </h1>
       </div>
-      <motion.div layout="position" className="skills-container">
+      <div className="skills-container">
         <LogoSkill info={info.html} skill="html" />
         <LogoSkill info={info.css} skill="css" />
         <LogoSkill info={info.js} skill="javascript" />
@@ -34,7 +36,7 @@ const SkillsPage = () => {
         <LogoSkill info={info.vscode} skill="vscode" />
         <LogoSkill info={info.framerMotion} skill="framer-motion" />
         <LogoSkill info={info.github} skill="github" />
-      </motion.div>
+      </div>
     </motion.div>
   );
 };

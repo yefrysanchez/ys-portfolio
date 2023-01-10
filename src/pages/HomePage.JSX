@@ -3,6 +3,7 @@ import "./styles/HomePage.css";
 import { motion } from "framer-motion";
 import { Slider } from "../components/sliders/Slider";
 
+
 const HomePage = () => {
   return (
     <div>
@@ -19,7 +20,7 @@ const HomePage = () => {
           linkText={"Home"}
         />
         <h1 className="title">
-          I'm a <span>Front-End Developer</span> based <br />
+          I'm a <span>Junior Front-End Developer</span> based <br />
           in <span>New York</span>
         </h1>
       </motion.div>

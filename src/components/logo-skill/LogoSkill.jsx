@@ -1,5 +1,4 @@
 import "./LogoSkill.css";
-import { motion } from "framer-motion";
 import { useState } from "react";
 
 
@@ -10,23 +9,23 @@ const LogoSkill = ({ skill, info }) => {
   const [isOpen, setIsOpen] = useState(false)
 
   return (
-    <motion.div  layout="position" onClick={() => setIsOpen(!isOpen)} className="logo-skill-container">
-      <motion.div layout="position" className="logo-skill">
-        <motion.img layout="position"
+    <div  layout="position" onClick={() => setIsOpen(!isOpen)} className="logo-skill-container">
+      <div layout="position" className="logo-skill">
+        <img layout="position"
           src={`../../assets/skills/${skill}-logo.png`}
           alt="logo-skill"
         />
-      </motion.div>
+      </div>
       {
         isOpen && (
-      <motion.div layout="position"  initial={{opacity: 0.1}} animate={{opacity: 1}}  className="skill-text">
-        <motion.h2>{skill.toUpperCase()}</motion.h2>
-        <motion.p>
+      <div layout="position"  initial={{opacity: 0.1}} animate={{opacity: 1}}  className="skill-text">
+        <h2>{skill.toUpperCase()}</h2>
+        <p>
           {info}
-        </motion.p>
-      </motion.div>
+        </p>
+      </div>
       )}
-    </motion.div>
+    </div>
   );
 };
 

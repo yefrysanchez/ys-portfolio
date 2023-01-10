@@ -81,12 +81,14 @@ ul {
 @media screen and (max-width: 768px) {
   .nav {
     height: fit-content;
-    max-width: 500px;
+    max-width: 90%;
     top: unset;
     bottom: 0;
     right: 50%;
     transform: translateX(50%);
     border-radius: 2rem 2rem 0 0;
+    backdrop-filter: blur(2px);
+    padding: 1rem;
   }
 
   .nav-links {
