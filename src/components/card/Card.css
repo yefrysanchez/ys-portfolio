@@ -57,13 +57,24 @@
 }
 
 .project:hover img,
-.project-reverse:hover img{
+.project-reverse:hover img {
   scale: 1.05;
 }
 
+@media screen and (max-width: 968px) {
+  .project-img {
+    width: 100%;
+    height: 400px;
+  }
+  
+}
 
 @media screen and (max-width: 768px) {
-  
+  .project-img {
+    width: 100%;
+    height: 400px;
+  }
+
   .project {
     display: flex;
     gap: 2rem;
@@ -78,5 +89,20 @@
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .project-img {
+    width: 100%;
+    height: 250px;
+  }
+
+  .btn-view {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
   }
 }

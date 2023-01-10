@@ -4,15 +4,24 @@ import MoreBtn from "../components/morebtn/MoreBtn";
 import "./styles/ProjectsPage.css";
 import { projectInfo } from "./projectInfo";
 import { useState } from "react";
+import { motion } from "framer-motion";
+import { Slider } from "../components/sliders/Slider";
 
 const ProjectsPage = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="project-container">
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0, transition: { duration: 0.2 } }}
+      transition={{ duration: 1 }}
+      className="project-container"
+    >
+      <Slider icon={"fa-regular fa-folder-open"} color={"rgb(61, 82, 215)"} linkText={"Projects"} />
       <div className="projects-title">
         <h1>
-          Some <span>Things</span> I’ve Built
+          Some <span>Things</span> I've Built
         </h1>
       </div>
       <div className="projects">
@@ -66,7 +75,7 @@ const ProjectsPage = () => {
           </div>
         )}
       </div>
-    </div>
+    </motion.div>
   );
 };
 

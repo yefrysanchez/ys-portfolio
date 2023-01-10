@@ -13,7 +13,7 @@ ul {
   padding: 2rem;
   transition: right 0.35s ease-in-out, background 0.35s ease-in-out,
   backdrop-filter 0.35s ease-in-out;
-  z-index: 999;
+  z-index: 900;
 }
 
 .nav-links {

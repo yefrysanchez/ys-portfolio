@@ -1,9 +1,18 @@
-import './styles/AboutPage.css'
+import "./styles/AboutPage.css";
 import Cover from "../components/cover/Cover";
+import { motion } from "framer-motion";
+import { Slider } from "../components/sliders/Slider";
 
 const AboutPage = () => {
   return (
-    <div className="about-container">
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0, transition: { duration: 0.2 } }}
+      transition={{ duration: 0.5 }}
+      className="about-container"
+    >
+<Slider icon={"fa-solid fa-user"} color={" rgb(215, 61, 61)"} linkText={"About Me"} />
       <div className="about">
         <div className="about__text">
           <h1>A BIT ABOUT ME</h1>
@@ -15,10 +24,13 @@ const AboutPage = () => {
           </p>
         </div>
         <div className="about__img">
-          <Cover src="../../assets/about/personal-photo.jpg" alt ="personal-photo"/>
+          <Cover
+            src="../../assets/about/personal-photo.jpg"
+            alt="personal-photo"
+          />
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

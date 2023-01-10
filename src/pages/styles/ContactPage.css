@@ -11,6 +11,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 5rem;
 }
 
 .contact-title {
@@ -27,9 +28,12 @@ a {
 }
 
 .contact-links {
+  height: 70%;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+  width: fit-content;
+  margin: 0 auto;
 }
 
 .c-link {
@@ -165,6 +169,15 @@ input,
   background-color: rgb(46, 163, 64);
 }
 
+.email{
+  text-align: center;
+  padding: 0 0 2rem 0;
+}
+
+.email span{
+  font-weight: bold;
+}
+
 @media screen and (max-width: 575px) {
   .contact-title h1 {
     text-align: center;
@@ -182,6 +195,7 @@ input,
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    width: 100%;
     margin: 1rem 0 2rem;
   }
 }
