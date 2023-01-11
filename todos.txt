@@ -1,3 +1,5 @@
-fixed transition glitch when scroll down, fixed!
+{{{{fixed transition glitch when scroll down, fixed!}}}}
 add background letters,
 take the picture when done,
+intro Transition
+in <Card/> implement  

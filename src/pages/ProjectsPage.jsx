@@ -6,6 +6,7 @@ import { projectInfo } from "./projectInfo";
 import { useState } from "react";
 import { motion } from "framer-motion";
 import { Slider } from "../components/sliders/Slider";
+import HomeFn from "../components/banner/HomeFn";
 
 const ProjectsPage = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -18,6 +19,7 @@ const ProjectsPage = () => {
       transition={{ duration: 1 }}
       className="project-container"
     >
+       <HomeFn text={"Projects Projects"} />
       <Slider icon={"fa-regular fa-folder-open"} color={"rgb(61, 82, 215)"} linkText={"Projects"} />
       <div className="projects-title">
         <h1>

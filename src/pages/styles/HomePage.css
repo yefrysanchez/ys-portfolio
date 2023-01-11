@@ -10,7 +10,7 @@
 .title {
   font-weight: 200;
   text-align: center;
-  font-size: 56px;
+  font-size: 5vh;
   color: var(--neutral-2);
   background: linear-gradient(
     180deg,
@@ -18,7 +18,7 @@
     rgba(15, 15, 24, 0.2)
   );
   border: 0.1rem solid #20222e;
-  padding: 2rem;
+  padding: 1rem;
   border-radius: 2rem;
 }
 

@@ -11,6 +11,7 @@ const ContactPage = () => {
       transition={{ duration: 1 }}
       className="contact-container"
     >
+      
       <Slider
         icon={"fa-solid fa-envelope"}
         color={"rgb(61, 215, 84)"}

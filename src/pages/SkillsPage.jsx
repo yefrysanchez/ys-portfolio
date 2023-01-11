@@ -3,18 +3,18 @@ import "./styles/SkillsPage.css";
 import { motion } from "framer-motion";
 import { info } from "../components/logo-skill/info";
 import { Slider } from "../components/sliders/Slider";
-
+import HomeFn from "../components/banner/HomeFn";
 
 const SkillsPage = () => {
   return (
     <motion.div
-    
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       exit={{ opacity: 0, transition: { duration: 0.2 } }}
       transition={{ duration: 1 }}
       className="skills"
     >
+      <HomeFn text={"Skills Skills"} />
       <Slider
         icon={"fa-solid fa-laptop-code"}
         color={" rgb(215, 184, 61)"}

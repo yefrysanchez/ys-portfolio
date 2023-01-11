@@ -2,6 +2,7 @@ import "./styles/AboutPage.css";
 import Cover from "../components/cover/Cover";
 import { motion } from "framer-motion";
 import { Slider } from "../components/sliders/Slider";
+import HomeFn from "../components/banner/HomeFn";
 
 const AboutPage = () => {
   return (
@@ -14,6 +15,7 @@ const AboutPage = () => {
     >
 <Slider icon={"fa-solid fa-user"} color={" rgb(215, 61, 61)"} linkText={"About Me"} />
       <div className="about">
+      <HomeFn text={"About About"} />
         <div className="about__text">
           <h1>A BIT ABOUT ME</h1>
           <p>
