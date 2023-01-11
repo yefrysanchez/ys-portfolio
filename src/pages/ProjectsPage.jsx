@@ -28,28 +28,28 @@ const ProjectsPage = () => {
       </div>
       <div className="projects">
         <Card
-          img=""
+          img="portfolio"
           title="Personal Porfolio"
           text={projectInfo.portfolio}
-          link="www.github.com"
+          github="www.github.com"
         />
         <CardReverse
           img="shoesjs"
           title="shoesjs"
           text={projectInfo.shoesjs}
-          link="www.github.com"
+          github="www.github.com"
         />
         <Card
           img="herospa"
           title="herospa"
           text={projectInfo.herospa}
-          link="www.github.com"
+          github="www.github.com"
         />
         <CardReverse
           img="cryptojs"
           title="cryptojs"
           text={projectInfo.cryptojs}
-          link="www.github.com"
+          github="www.github.com"
         />
         <div onClick={() => setIsOpen(!isOpen)}>
           <MoreBtn open={isOpen} />
@@ -60,19 +60,25 @@ const ProjectsPage = () => {
               img="photosome"
               title="Photosome"
               text={projectInfo.photosome}
-              link="www.github.com"
+              github="www.github.com"
             />
             <CardReverse
+              img="mentor"
+              title="Frontend Mentor"
+              text={projectInfo.mentor}
+              github="www.github.com"
+            />
+            <Card
               img="bsg"
               title="BSG"
               text={projectInfo.bsg}
-              link="www.github.com"
+              github="www.github.com"
             />
-            <Card
+            <CardReverse
               img="beatbit"
               title="Beatbit"
               text={projectInfo.beatbit}
-              link="www.github.com"
+              github="www.github.com"
             />
           </div>
         )}

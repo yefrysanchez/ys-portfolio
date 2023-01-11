@@ -81,7 +81,7 @@ ul {
 @media screen and (max-width: 768px) {
   .nav {
     height: fit-content;
-    max-width: 90%;
+    width: 300px;
     top: unset;
     bottom: 0;
     right: 50%;
@@ -93,9 +93,10 @@ ul {
 
   .nav-links {
     height: 100%;
+    width: 100%;
     display: flex;
     flex-direction: row;
-    gap: 1rem;
+    gap: 12%;
     font-size: 1.5rem;
   }
 
@@ -110,4 +111,5 @@ ul {
     background: rgba(81, 84, 115, 0.1);
     backdrop-filter: blur(1px);
   }
+  
 }

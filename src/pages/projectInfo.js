@@ -13,4 +13,5 @@ export const projectInfo = {
     "BSG stands for Box-Shadow Generator, I use it every time I need a shadow for any of my projects.",
   beatbit:
     "Beatbit is an app that allows you to make a simple beat in 3 different music genres. I learn so much about OOP in this project.",
+    mentor: 'Frontend Mentor provides designs so that you can practice your front-end skills using a real-life workflow.'
 };

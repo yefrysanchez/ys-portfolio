@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 
 
-const Card = ({ title, text, link, img }) => {
+const Card = ({ title, text, link, github, img }) => {
   return (
     <motion.div
       initial={{ opacity: 0}}
@@ -20,7 +20,7 @@ const Card = ({ title, text, link, img }) => {
 
         <div className="btn-view">
           <Viewbtn text={"Live Demo "} link={link} />
-          <Viewbtn text={"GitHub "} link={link} />
+          <Viewbtn text={"GitHub "} link={github} />
         </div>
       </div>
     </motion.div>
