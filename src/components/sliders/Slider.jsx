@@ -34,7 +34,7 @@ export const Slider = ({ color, linkText, icon }) => {
         }
       >
         <div className="transition-icon">
-          <i class={icon}></i>
+          <i className={icon}></i>
           <h2>{linkText}</h2>
         </div>
       </motion.div>

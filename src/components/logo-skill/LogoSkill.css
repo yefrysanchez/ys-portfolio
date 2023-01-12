@@ -40,3 +40,21 @@
   font-size: 15px;
   line-height: 1.5;
 }
+
+
+/* logo-stack */
+.logo-stack-container{
+  display: flex;
+  gap: 1rem;
+}
+
+.logo-stack{
+  width: 2rem;
+  height: 2rem;
+}
+
+.logo-stack img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

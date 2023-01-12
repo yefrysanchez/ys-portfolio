@@ -4,7 +4,7 @@ import "./Viewbtn.css";
 const Viewbtn = ({ text, link }) => {
   return (
     <a
-      href={`https://${link}`}
+      href={`${link}`}
       target="_blank"
       rel="noopener"
       className="viewbtn"
