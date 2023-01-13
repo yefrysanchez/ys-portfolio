@@ -98,6 +98,7 @@ ul {
     flex-direction: row;
     gap: 12%;
     font-size: 1.5rem;
+    padding-bottom: 1.5rem;
   }
 
   .nav-links span {

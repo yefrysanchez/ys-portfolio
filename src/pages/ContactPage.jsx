@@ -11,7 +11,6 @@ const ContactPage = () => {
       transition={{ duration: 1 }}
       className="contact-container"
     >
-      
       <Slider
         icon={"fa-solid fa-envelope"}
         color={"rgb(61, 215, 84)"}
@@ -25,7 +24,12 @@ const ContactPage = () => {
         </div>
 
         <div className="contact-content">
-          <form className="contact-form">
+          <form
+            className="contact-form"
+            name="Portfolio form"
+            action="https://formsubmit.co/yefrymsp@gmail.com"
+            method="POST"
+          >
             <div className="name-input">
               <input id="name" type="text" name="name" required />
               <label htmlFor="name" className="label-name">
@@ -33,15 +37,9 @@ const ContactPage = () => {
               </label>
             </div>
             <div className="name-input">
-              <input id="name" type="email" name="name" required />
-              <label htmlFor="name" className="label-name">
+              <input id="email" type="email" name="email" required />
+              <label htmlFor="email" className="label-name">
                 <span className="content-name">Email</span>
-              </label>
-            </div>
-            <div className="name-input">
-              <input id="name" type="text" name="name" required />
-              <label htmlFor="name" className="label-name">
-                <span className="content-name">Subject</span>
               </label>
             </div>
             <div className="name-input">
@@ -58,20 +56,21 @@ const ContactPage = () => {
             </button>
           </form>
           <div>
-          <div>
-            <p className="email"><span>Email: </span>
-              yefrymsp@gmail.com
-            </p>
-          </div>
+            <div>
+              <p href="mailto:yefrymsp@gmail.com" className="email">
+                <span>Email: </span>
+                yefrymsp@gmail.com
+              </p>
+            </div>
             <div className="contact-links">
               <a
                 className="c-link"
-                href="http://"
+                href="mailto:yefrymsp@gmail.com"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <i className="fa-solid fa-envelope"></i>
-                <span>Gmail</span>
+                <span>Email</span>
               </a>
               <a
                 className="c-link"
@@ -84,7 +83,7 @@ const ContactPage = () => {
               </a>
               <a
                 className="c-link"
-                href="http://"
+                href="https://github.com/yefrysanchez"
                 target="_blank"
                 rel="noopener noreferrer"
               >

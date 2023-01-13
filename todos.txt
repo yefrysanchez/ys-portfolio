@@ -2,4 +2,4 @@
 {{{add background letters,}}}
 take the picture when done,
 intro Transition
-in <Card/> implement tech stack  
+{{{{in <Card/> implement tech stack}}}}  
