@@ -23,7 +23,7 @@ const HomePage = () => {
       >
         <Slider
           icon={"fa-solid fa-house"}
-          color={"rgb(138, 61, 215)"}
+          color={"rgb(215, 61, 61)"}
           linkText={"Home"}
         />
 

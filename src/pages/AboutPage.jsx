@@ -13,7 +13,7 @@ const AboutPage = () => {
       transition={{ duration: 0.5 }}
       className="about-container"
     >
-<Slider icon={"fa-solid fa-user"} color={" rgb(215, 61, 61)"} linkText={"About Me"} />
+<Slider icon={"fa-solid fa-user"} color={" rgb(138, 61, 215)"} linkText={"About Me"} />
       <div className="about">
       <HomeFn text={"About About"} />
         <div className="about__text">

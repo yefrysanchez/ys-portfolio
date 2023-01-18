@@ -35,6 +35,7 @@ const ProjectsPage = () => {
           img="portfolio"
           title="Personal Porfolio"
           text={projectInfo.portfolio}
+          link={"https://yefrysanchez.dev/"}
           github="https://www.github.com/yefrysanchez/ys-portfolio"
           skill1={"react"}
           skill2={"css"}

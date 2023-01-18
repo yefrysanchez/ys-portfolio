@@ -34,19 +34,19 @@ ul {
   color: var(--neutral-1);
 }
 
-.links-home:hover {
-  color: rgb(138, 61, 215);
-}
-
-.links-home.active {
-  color: rgb(138, 61, 215);
-}
-
 .links-about:hover {
-  color: rgb(215, 61, 61);
+  color: rgb(138, 61, 215);
 }
 
 .links-about.active {
+  color: rgb(138, 61, 215);
+}
+
+.links-home:hover {
+  color: rgb(215, 61, 61);
+}
+
+.links-home.active {
   color: rgb(215, 61, 61);
 }
 
