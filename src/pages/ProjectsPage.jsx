@@ -41,7 +41,20 @@ const ProjectsPage = () => {
           skill3={"framer-motion"}
           skill4={"vite"}
         />
+
         <CardReverse
+          img="rulay"
+          title="rulay"
+          text={projectInfo.rulay}
+          link={"https://rulay.netlify.app/"}
+          github="https://github.com/yefrysanchez/rulay"
+          skill1={"react"}
+          skill2={"tailwindcss"}
+          skill3={"vite"}
+          skill4={"netlify"}
+        />
+
+        <Card
           img="shoesjs"
           title="shoesjs"
           text={projectInfo.shoesjs}
@@ -50,19 +63,9 @@ const ProjectsPage = () => {
           skill1={"html"}
           skill2={"css"}
           skill3={"javascript"}
-          skill4={"gsap"}
+          skill4={"Gsap"}
         />
-        <Card
-          img="herospa"
-          title="herospa"
-          text={projectInfo.herospa}
-          link={"https://herospa.netlify.app/"}
-          github="https://www.github.com/yefrysanchez/heroes-spa"
-          skill1={"react"}
-          skill2={"tailwindcss"}
-          skill3={"javascript"}
-          skill4={"vite"}
-        />
+
         <CardReverse
           img="cryptojs"
           title="cryptojs"
@@ -80,6 +83,17 @@ const ProjectsPage = () => {
         {isOpen && (
           <div>
             <Card
+              img="herospa"
+              title="herospa"
+              text={projectInfo.herospa}
+              link={"https://herospa.netlify.app/"}
+              github="https://www.github.com/yefrysanchez/heroes-spa"
+              skill1={"react"}
+              skill2={"tailwindcss"}
+              skill3={"javascript"}
+              skill4={"vite"}
+            />
+            <CardReverse
               img="photosome"
               title="Photosome"
               text={projectInfo.photosome}
@@ -90,7 +104,7 @@ const ProjectsPage = () => {
               skill3={"javascript"}
               skill4={"netlify"}
             />
-            <CardReverse
+            <Card
               img="mentor"
               title="Frontend Mentor"
               text={projectInfo.mentor}
@@ -101,8 +115,8 @@ const ProjectsPage = () => {
               skill3={"javascript"}
               skill4={"netlify"}
             />
-            <Card
-              img="bsg"
+            <CardReverse
+              img="BSG"
               title="BSG"
               text={projectInfo.bsg}
               link={"https://bsg-ys.netlify.app"}
@@ -112,7 +126,7 @@ const ProjectsPage = () => {
               skill3={"javascript"}
               skill4={"netlify"}
             />
-            <CardReverse
+            <Card
               img="beatbit"
               title="Beatbit"
               text={projectInfo.beatbit}
