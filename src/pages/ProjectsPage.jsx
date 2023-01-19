@@ -33,7 +33,7 @@ const ProjectsPage = () => {
       <div className="projects">
         <Card
           img="portfolio"
-          title="Personal Porfolio"
+          title="Personal Portfolio"
           text={projectInfo.portfolio}
           link={"https://yefrysanchez.dev/"}
           github="https://www.github.com/yefrysanchez/ys-portfolio"
