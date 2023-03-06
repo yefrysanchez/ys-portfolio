@@ -32,15 +32,15 @@ const ProjectsPage = () => {
       </div>
       <div className="projects">
         <Card
-          img="portfolio"
-          title="Personal Portfolio"
-          text={projectInfo.portfolio}
-          link={"https://yefrysanchez.dev/"}
-          github="https://www.github.com/yefrysanchez/ys-portfolio"
+          img="ysdev"
+          title="YSDev"
+          text={projectInfo.ysdev}
+          link={"https://ys-dev.netlify.app"}
+          github="https://github.com/yefrysanchez/ysdev"
           skill1={"react"}
-          skill2={"css"}
-          skill3={"framer-motion"}
-          skill4={"vite"}
+          skill2={"tailwindcss"}
+          skill3={"redux-toolkit"}
+          skill4={"sanity"}
         />
 
         <CardReverse
@@ -72,7 +72,7 @@ const ProjectsPage = () => {
           title="cryptojs"
           text={projectInfo.cryptojs}
           link={"https://cryptojs-ys.netlify.app"}
-          github="https://www.github.com/yefrysanchez/Crypto-Js"
+          github="https://github.com/yefrysanchez/cryptofy"
           skill1={"html"}
           skill2={"css"}
           skill3={"javascript"}

@@ -182,6 +182,10 @@ input,
   font-weight: bold;
 }
 
+.about__text P{
+  margin-bottom: 2rem;
+}
+
 @media screen and (max-width: 575px) {
   .contact-title h1 {
     text-align: center;

@@ -23,4 +23,9 @@ export const info = {
 
   github:
     "It is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.",
+
+  redux:
+    "The Redux Toolkit package is intended to be the standard way to write Redux logic. It was originally created to help address some common concerns about Redux",
+  sanity:
+    "Sanity is used for managing content like text, images, video, and other media via APIs.",
 };

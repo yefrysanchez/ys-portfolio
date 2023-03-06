@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import "./Viewbtn.css";
 
 const Viewbtn = ({ text, link }) => {

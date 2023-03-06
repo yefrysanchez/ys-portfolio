@@ -33,9 +33,9 @@ const SkillsPage = () => {
         <LogoSkill info={info.tailwindcss} skill="tailwindcss" />
         <LogoSkill info={info.git} skill="git" />
         <LogoSkill info={info.vite} skill="vite" />
-        <LogoSkill info={info.vscode} skill="vscode" />
+        <LogoSkill info={info.redux} skill="redux-toolkit" />
         <LogoSkill info={info.framerMotion} skill="framer-motion" />
-        <LogoSkill info={info.github} skill="github" />
+        <LogoSkill info={info.sanity} skill="sanity" />
       </div>
     </motion.div>
   );
